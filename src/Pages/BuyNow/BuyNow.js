@@ -107,7 +107,7 @@ const BuyNow = () => {
                     <input type="text" name='price' value={tool.price} class="input input-bordered w-full max-w-xs" />
             </div>
 
-        <input className='btn bg-primary mt-4 border-0' type="submit" value="Place an Order" class="btn" />
+        <input className='btn bg-white text-black border border-black hover:bg-primary hover:text-white mt-8 border-0' type="submit" value="Place an Order" class="btn" />
            
 
 

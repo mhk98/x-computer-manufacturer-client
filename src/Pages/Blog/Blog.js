@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='mx-24 flex-items-center text-left'>
+        <div className='flex items-center text-left'>
             <h2 className='text-xl font-bold'>Q1. How will you improve the performance of a React Application?</h2>
             <p>React Application isn't a rocket science. Before starting programming hero course. I have no idea about the react application programming. But not like that I have 0 knowledge about programming. I know programming is so tough job. But I have beleve about myself and I have a minset to work hard. I think for improve in any programming need to hard working. There is no shortcart.</p>
             <h2 className='text-xl font-bold'>Q2. What are the different ways to manage a state in a React application?</h2>

@@ -6,7 +6,10 @@ import blog3 from '../../image/blog/blog3.jpg'
 const LatestBlog = () => {
     return (
         <div>
-            <h1 className='text-center text-4xl my-12'>Latest Blogs</h1>
+            <div className='my-8'>
+            <h1 className='text-left text-xl font-bold'>Latest Blogs</h1>
+            <div className='border-b-2 w-12 border-primary'></div>
+            </div>
             <div className='mt-5 ml-12 grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1'>
             
             <div class="card w-96 bg-base-100 shadow-xl">

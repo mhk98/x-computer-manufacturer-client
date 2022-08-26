@@ -17,9 +17,9 @@ import Profile from './Pages/Dashboard/Profile';
 import AddAProduct from './Pages/Dashboard/AddAProduct';
 import NotFound from './Pages/Shared/NotFound';
 import Blog from './Pages/Blog/Blog';
-import Biodata from './Pages/Biodata/Biodata';
 import MakeAdmin from './Pages/Dashboard/MakeAdmin';
 import Payment from './Pages/Dashboard/Payment';
+import Contact from './Pages/Biodata/Contact';
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         <Route path='home' element={<Home></Home>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='signup' element={<SignUp></SignUp>}></Route>
-      <Route path='/biodata' element={<Biodata></Biodata>}></Route>
+      <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/buynow/:id' element={<RequireAuth>
           <BuyNow></BuyNow>
         </RequireAuth>}></Route>

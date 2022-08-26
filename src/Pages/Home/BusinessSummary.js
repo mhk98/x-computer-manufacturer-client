@@ -2,11 +2,12 @@ import React from 'react';
 
 const BusinessSummary = () => {
     return (
-        <div className='my-12 mr-8 text-primary'>
-              <h2 className='text-4xl font-bold'>OUR VALUABLE CUSOTMER TRUST US</h2>
-              <h3 className='text-black text-xl mt-4'>YOU CAN TRY TO REALISE OUR USER EXPECTATION</h3>
-              <div className='border-b-4 border-primary mx-96 mt-2'></div>
-            <div class="mt-20 grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
+        <div className='my-8'>
+              <div className=''>
+              <h2 className='text-xl font-bold text-left'>Customer Interactions</h2>
+              <div className='border-b-2 w-12 border-primary'></div>
+              </div>
+            <div class=" grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
 
   <div class="stat">
     <div class="stat-figure text-primary">

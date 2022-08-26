@@ -21,15 +21,17 @@ const Navbar = () => {
         {
            user &&   <li><Link to='/dashboard'>Dashboard</Link></li>
         }
-        <li><Link to='/blog'>Blog</Link></li>        
-        <li><Link to='/biodata'>Portfolio</Link></li>
+        <li><Link to=''>Category</Link></li>  
+        <li><Link to='/blog'>Blog</Link></li>              
+        <li><Link to=''>About Us</Link></li>        
+        <li><Link to='/contact'>Contact Us</Link></li>
         {
           user ? <li><Link to='/login' onClick={logout}>LogOut</Link></li> :
           <li><Link to='/login'>Login</Link></li>
         }
     </>
     return (
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-[#2C313C] text-white py-4">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -39,7 +41,7 @@ const Navbar = () => {
         {menuItems}
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl">X Computer Manufacturer House</a>
+    <a class="btn btn-ghost normal-case text-xl">Computer Manufacture</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
