@@ -16,7 +16,7 @@ const AddAProduct = () => {
             price: event.target.price.value,
         }
 
-        fetch('https://damp-falls-64903.herokuapp.com/tool', {
+        fetch('https://secret-river-57828.herokuapp.com/tool', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

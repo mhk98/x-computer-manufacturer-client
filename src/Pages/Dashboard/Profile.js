@@ -18,7 +18,7 @@ const Profile = () => {
         }
         // const email = user?.email;
 
-        fetch('https://damp-falls-64903.herokuapp.com/user',{
+        fetch('https://secret-river-57828.herokuapp.com/user',{
             method: 'POST',
             headers:{
                 'content-type':'application/json'

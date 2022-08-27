@@ -4,7 +4,7 @@ const useTools = () =>{
 
     const [tools, setTools] = useState([])
     useEffect( () =>{
-        fetch('https://damp-falls-64903.herokuapp.com/tool')
+        fetch('https://secret-river-57828.herokuapp.com/tool')
         .then(res => res.json())
         .then(data =>setTools(data))
     }, [])

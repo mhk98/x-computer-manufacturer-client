@@ -15,7 +15,7 @@ const Review = () => {
             img:event.target.img.value,
         }
 
-        fetch('https://damp-falls-64903.herokuapp.com/review', {
+        fetch('https://secret-river-57828.herokuapp.com/review', {
             method: 'POST',
             headers:{
                 'content-type':'application/json',

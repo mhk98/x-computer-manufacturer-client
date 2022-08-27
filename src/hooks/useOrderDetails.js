@@ -5,7 +5,7 @@ const useOrderDetails = () =>{
     
 
     useEffect ( () =>{
-        const url = ' https://damp-falls-64903.herokuapp.com/order/'
+        const url = ' https://secret-river-57828.herokuapp.com/order/'
         fetch(url)
         .then(res => res.json())
         .then(data =>setOrders(data))

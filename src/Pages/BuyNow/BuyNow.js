@@ -41,7 +41,7 @@ const BuyNow = () => {
       }
       
 
-      fetch('https://damp-falls-64903.herokuapp.com/order',{
+      fetch('https://secret-river-57828.herokuapp.com/order',{
         method: 'POST',
         headers:{
           'content-type': 'application/json'
